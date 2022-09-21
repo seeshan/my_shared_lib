@@ -1,5 +1,5 @@
 def call(Map releaseInfoMap, step) {
-    println 'save step'
+    println 'save step: ' + devportal.releaseInfoMap
 
     releaseInfoMap['save'] = step
 

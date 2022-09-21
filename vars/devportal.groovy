@@ -1,3 +1,11 @@
-import groovy.transform.Field
+// import groovy.transform.Field
 
-@Field def releaseInfoMap = [:]
+// @Field def releaseInfoMap2 = [:]
+
+// def call() {
+//     @Field def releaseInfoMap = [:]
+// }
+
+class devportal {
+    def releaseInfoMap = [:]
+}
