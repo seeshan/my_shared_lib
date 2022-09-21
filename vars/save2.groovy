@@ -1,4 +1,3 @@
-
 def call(Map releaseInfoMap, action) {
     echo 'save2 step'
 
