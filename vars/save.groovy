@@ -1,8 +1,11 @@
 
 def call(Map releaseInfoMap, step) {
-    echo 'set step'
+    echo 'save step'
 
-    releaseInfoMap['step'] = step
+    releaseInfoMap['save'] = step
 
-    println releaseInfoMap
+    devportal.releaseInfoMap['devportal.save'] ] step
+
+    println "releaseInfoMap: " + releaseInfoMap
+    println "devportal.releaseInfoMap: " + devportal.releaseInfoMap
 }
