@@ -7,5 +7,5 @@
 // }
 
 class devportal {
-    def releaseInfoMap = [:]
+    static Map releaseInfoMap = [:]
 }
