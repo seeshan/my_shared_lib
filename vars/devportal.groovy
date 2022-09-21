@@ -1,3 +1,3 @@
 import groovy.transform.Field
 
-@Filed def releaseInfoMap = [:]
+@Field def releaseInfoMap = [:]
